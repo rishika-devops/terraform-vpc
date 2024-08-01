@@ -1,5 +1,6 @@
 variable "cidr_block" {
-    default = "10.0.0.0/16"
+    type = string
+    default = ""
 }
 variable "enable_dns_hostnames" {
     default  = true
